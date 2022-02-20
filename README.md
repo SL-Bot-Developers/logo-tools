@@ -13,7 +13,7 @@
 # 📚 Description 📚
  
 
-- 🔑 BOT Commands : `/start` 
+- 🔑 BOT Commands : `/start`, `/logo`, `/logohq`, `/write`, `/wall`
 
 # 🌸 Demo Bot
 
