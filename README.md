@@ -1,5 +1,4 @@
 ```
-
 from pyrogram import filters
 from pyrogram.types import Message
 from requests import get
@@ -99,6 +98,4 @@ async def on_off_antiarab(_, message: Message):
             ]
           ),
     )
-
-
 ```
