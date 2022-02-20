@@ -27,7 +27,8 @@ caption = """
 
 ◇───────────────◇️  
     """
-#logo creator
+#◇───────────────────────────────────────◇ 
+
 @logo.on_message(filters.command("logo"))
 async def on_off_antiarab(_, message: Message):
     text = message.text.split(None, 1)[1]
@@ -43,7 +44,9 @@ async def on_off_antiarab(_, message: Message):
             ]
           ),
     )
-#hq logo creator
+
+#◇────────────────────────────────────◇ 
+  
 @logo.on_message(filters.command("logohq"))
 async def on_off_antiarab(_, message: Message):
     text = message.text.split(None, 1)[1]
@@ -60,7 +63,8 @@ async def on_off_antiarab(_, message: Message):
           ),
     )
 
-#handwrite
+#◇──────────────────────────────────────◇ 
+
 @logo.on_message(filters.command("write"))
 async def on_off_antiarab(_, message: Message):
     text = message.text.split(None, 1)[1]
@@ -82,7 +86,8 @@ async def on_off_antiarab(_, message: Message):
           ),
     )
 
-#wallpaper
+#◇───────────────────────────────────────────◇
+
 @logo.on_message(filters.command("wall"))
 async def on_off_antiarab(_, message: Message):
     text = message.text.split(None, 1)[1]
