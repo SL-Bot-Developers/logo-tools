@@ -1,106 +1,35 @@
-```
-from pyrogram import filters
-from pyrogram.types import Message
-from requests import get
-import os
-import requests
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+# Logo-Generate-Bot 
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+![🍀 Logo Generate Tools 🍀](https://telegra.ph/file/61e5a2d1009c4cbdaf67d.jpg)
 
-logo = Client("logo Bot", bot_token = BOT_TOKEN, api_id = API_ID, api_hash = API_HASH)
+## 🛠 Configuring Environments
 
-logo.run()
+``` API_HASH ``` Your Api Hash, Generate It From [TG API BOT](https://t.me/TgApiextractorBot)
 
-caption = """
-✍️ Logo Created Successfully✅
+``` API_ID ``` You Api Id, Generate It From [TG API BOT](https://t.me/TgApiextractorBot)
 
-◇───────────────◇
+``` BOT_TOKEN ``` You bot token, Generate It From [Bot Father](https://t.me/BotFather)
 
-🚀 **Created By** : **[LOGO GENERATE BOT 🔅](https://t.me/The_logo_generate_bot)**
+# 📚 Description 📚
+ 
 
-🌺 **Requestor** : ** {} **
+- 🔑 BOT Commands : `/start` 
 
-🍀 **Powered By **  : **[🍀 zoneunlimited 🍀 ](https://t.me/zoneunlimited)**
 
-◇───────────────◇️  
-    """
-#◇───────────────────────────────────────◇ 
+# 🌺 Credits and Other
 
-@logo.on_message(filters.command("logo"))
-async def on_off_antiarab(_, message: Message):
-    text = message.text.split(None, 1)[1]
-    photo = get(f"https://api.single-developers.software/logo?name={text}").history[1].url
-    await app.send_photo(message.chat.id, photo=photo, caption =caption.format(message.from_user.mention),
-                 reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{photo}"
-                    )
-                ]
-            ]
-          ),
-    )
+- [🚀 zoneunlimited](https://github.com/zoneunlimited) For This Project ✌️
+- [🍀 zoneunlimited 🍀](https://t.me/zoneunlimited) For Telegram Channel 🚀
 
-#◇────────────────────────────────────◇ 
-  
-@logo.on_message(filters.command("logohq"))
-async def on_off_antiarab(_, message: Message):
-    text = message.text.split(None, 1)[1]
-    photo = get(f"https://api.single-developers.software/logohq?name={text}").history[1].url
-    await app.send_photo(message.chat.id, photo=photo, caption =caption.format(message.from_user.mention),
-                 reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{photo}"
-                    )
-                ]
-            ]
-          ),
-    )
+# 🔥 Developers 🔥
 
-#◇──────────────────────────────────────◇ 
+- [🔥 Chamod deshan](https://t.me/chamod_deshan)<br>
+- [🔥 Bimsara malinga](https://t.me/bimsaramalinga) <br>
 
-@logo.on_message(filters.command("write"))
-async def on_off_antiarab(_, message: Message):
-    text = message.text.split(None, 1)[1]
-    API = "https://api.single-developers.software/write"
-    body = {     
-     "text":f"{text}"     
-    }
-    req = requests.post(API, headers={'Content-Type': 'application/json'}, json=body)
-    img = req.history[1].url
-    await app.send_photo(message.chat.id, photo=img, caption =caption.format(message.from_user.mention),
-                 reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{img}"
-                    )
-                ]
-            ]
-          ),
-    )
+## 🌷 Telegram Group/Channel
 
-#◇───────────────────────────────────────────◇
+- [🌷 zoneunlimited](https://t.me/zoneunlimited) Corporation ©️
+- [🌷 zoneunlimited chat](https://t.me/zoneunlimitedchat) 
 
-@logo.on_message(filters.command("wall"))
-async def on_off_antiarab(_, message: Message):
-    text = message.text.split(None, 1)[1]
-    photo = get(f"https://api.single-developers.software/wallpaper?search={text}").history[1].url
-    await app.send_photo(message.chat.id, photo=photo, caption=caption.format(message.from_user.mention),
-                 reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{photo}"
-                    )
-                ]
-            ]
-          ),
-    )
-```
+##
+
