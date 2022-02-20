@@ -11,7 +11,6 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 logo = Client("logo Bot", bot_token = BOT_TOKEN, api_id = API_ID, api_hash = API_HASH)
 
-logo.run()
 
 caption = """
 ✍️ Logo Created Successfully✅
@@ -102,3 +101,5 @@ async def on_off_antiarab(_, message: Message):
             ]
           ),
     )
+
+logo.run()
