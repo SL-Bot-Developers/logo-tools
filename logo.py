@@ -39,7 +39,7 @@ START_BUTTONS=[
 
 @logo.on_message(filters.command("start"))
 async def start(client,message):
-    await message.reply_text("🍀 Hi I am Logo Generate Bot Telegram...",
+    await message.reply("🍀 Hi I am Logo Generate Bot Telegram...",
     reply_markup=START_BUTTONS)
 
 #◇───────────────────────────────────────◇ 
