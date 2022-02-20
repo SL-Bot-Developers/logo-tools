@@ -27,6 +27,23 @@ caption = """
     """
 #◇───────────────────────────────────────◇ 
 
+START_BUTTONS=[
+    [
+        InlineKeyboardButton('🍀 Update Channel 🍀', url='https://t.me/zoneunlimited'),
+        InlineKeyboardButton('🚀 Support Group 🚀', url='https://t.me/zoneunlimitedchat'),
+    ],
+    [InlineKeyboardButton('🌷 Github Repository 🌷', url='https://github.com/zoneunlimited/logo-tools')],
+]
+
+#◇───────────────────────────────────────◇ 
+
+@logo.on_message(filters.command("start"))
+async def start(client,message):
+    await message.reply_text("🍀 Hi I am Logo Generate Bot Telegram...",
+    reply_markup=START_BUTTONS)
+
+#◇───────────────────────────────────────◇ 
+
 @logo.on_message(filters.command("logo"))
 async def on_off_antiarab(_, message: Message):
     text = message.text.split(None, 1)[1]
