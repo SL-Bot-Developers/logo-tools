@@ -34,5 +34,9 @@
 - [🌷 zoneunlimited](https://t.me/zoneunlimited) Corporation ©️
 - [🌷 zoneunlimited chat](https://t.me/zoneunlimitedchat) 
 
+# 🙋‍♂ Credits 
+
+- [🔥 Single Developers </> ](https://t.me/SingleDevelopers)
+
 ##
 
