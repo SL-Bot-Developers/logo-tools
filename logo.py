@@ -27,20 +27,12 @@ caption = """
     """
 #◇───────────────────────────────────────◇ 
 
-START_BUTTONS=[
-    [
-        InlineKeyboardButton('🍀 Update Channel 🍀', url='https://t.me/zoneunlimited'),
-        InlineKeyboardButton('🚀 Support Group 🚀', url='https://t.me/zoneunlimitedchat'),
-    ],
-    [InlineKeyboardButton('🌷 Github Repository 🌷', url='https://github.com/zoneunlimited/logo-tools')],
-]
-
 #◇───────────────────────────────────────◇ 
 
 @logo.on_message(filters.command("start"))
 async def start(client,message):
-    await message.reply("🍀 Hi I am Logo Generate Bot Telegram...",
-    reply_markup=START_BUTTONS)
+    await message.reply("🍀 Hi I am Logo Generate Bot Telegram...")
+
 
 #◇───────────────────────────────────────◇ 
 
@@ -80,28 +72,6 @@ async def on_off_antiarab(_, message: Message):
 
 #◇──────────────────────────────────────◇ 
 
-@logo.on_message(filters.command("write"))
-async def on_off_antiarab(_, message: Message):
-    text = message.text.split(None, 1)[1]
-    API = "https://api.single-developers.software/write"
-    body = {     
-     "text":f"{text}"     
-    }
-    req = requests.post(API, headers={'Content-Type': 'application/json'}, json=body)
-    img = req.history[1].url
-    await app.send_photo(message.chat.id, photo=img, caption =caption.format(message.from_user.mention),
-                 reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{img}"
-                    )
-                ]
-            ]
-          ),
-    )
-
-#◇───────────────────────────────────────────◇
 
 @logo.on_message(filters.command("wall"))
 async def on_off_antiarab(_, message: Message):
