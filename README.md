@@ -21,7 +21,7 @@
 
 # 🌺 Credits and Other
 
-- [🚀 zoneunlimited](https://github.com/zoneunlimited) For This Project ✌️
+- [🚀 SL Bot Developers 🇱🇰](https://github.com/SL-Bot-Developers) For This Project ✌️
 - [🍀 zoneunlimited 🍀](https://t.me/zoneunlimited) For Telegram Channel 🚀
 
 # 🔥 Developers 🔥
@@ -31,8 +31,8 @@
 
 ## 🌷 Telegram Group/Channel
 
-- [🌷 zoneunlimited](https://t.me/zoneunlimited) Corporation ©️
-- [🌷 zoneunlimited chat](https://t.me/zoneunlimitedchat) 
+- [🌷 SL Bot Developers 🇱🇰](https://t.me/SL_BotDevelopers) Corporation ©️
+- [🌷 zoneunlimited](https://t.me/zoneunlimited) 
 
 # 🙋‍♂ Credits 
 
