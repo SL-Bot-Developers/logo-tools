@@ -1,7 +1,7 @@
 {
-    "name": "SongPlayRoBot",
-    "logo": "https://telegra.ph/file/cb7b0aead06c96955323e.jpg",
-    "description": "Grabs song from yt and sends it to telegram by @TamilBots",
+    "name": "Logo Generate Bot",
+    "logo": "https://telegra.ph/file/61e5a2d1009c4cbdaf67d.jpg",
+    "description": "Beautiful Logo Generate Bot SL Bot Developers 🇱🇰 corporation ©",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org.",
@@ -13,10 +13,6 @@
         },
         "BOT_TOKEN": {
             "description": "Get this value by making a bot from @BotFather.",
-            "required": true
-        },
-        "OWNER_ID": {
-            "description": "Your telegram user id.",
             "required": true
         }
     },
