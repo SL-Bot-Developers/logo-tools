@@ -10,6 +10,10 @@
 
 ``` BOT_TOKEN ``` You bot token, Generate It From [Bot Father](https://t.me/BotFather)
 
+# Deploy Heroku 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SL-Bot-Developers/logo-tools.git)
+
 # 📚 Description 📚
  
 
