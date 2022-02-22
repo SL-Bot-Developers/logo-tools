@@ -31,6 +31,7 @@ caption = """
 
 @logo.on_message(filters.command("start"))
 async def start(client,message):
+    await message.reply_chat_action("typing")
     await message.reply("🍀 Hi I am Logo Generate Bot Telegram...")
 
 
@@ -40,7 +41,8 @@ async def start(client,message):
 async def on_off_antiarab(_, message: Message):
     text = message.text.split(None, 1)[1]
     photo = get(f"https://api.single-developers.software/logo?name={text}").history[1].url
-    await app.send_photo(message.chat.id, photo=photo, caption =caption.format(message.from_user.mention),
+    await message.reply_chat_action("upload_photo")
+    await logo.send_photo(message.chat.id, photo=photo, caption =caption.format(message.from_user.mention),
                  reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -58,7 +60,8 @@ async def on_off_antiarab(_, message: Message):
 async def on_off_antiarab(_, message: Message):
     text = message.text.split(None, 1)[1]
     photo = get(f"https://api.single-developers.software/logohq?name={text}").history[1].url
-    await app.send_photo(message.chat.id, photo=photo, caption =caption.format(message.from_user.mention),
+    await message.reply_chat_action("upload_photo")
+    await logo.send_photo(message.chat.id, photo=photo, caption =caption.format(message.from_user.mention),
                  reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -77,7 +80,8 @@ async def on_off_antiarab(_, message: Message):
 async def on_off_antiarab(_, message: Message):
     text = message.text.split(None, 1)[1]
     photo = get(f"https://api.single-developers.software/wallpaper?search={text}").history[1].url
-    await app.send_photo(message.chat.id, photo=photo, caption=caption.format(message.from_user.mention),
+    await message.reply_chat_action("upload_photo")
+    await logo.send_photo(message.chat.id, photo=photo, caption=caption.format(message.from_user.mention),
                  reply_markup=InlineKeyboardMarkup(
             [
                 [
