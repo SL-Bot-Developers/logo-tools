@@ -91,3 +91,7 @@ async def on_off_antiarab(_, message: Message):
 
 
 logo.run()
+
+app.start()
+LOGGER.info("SL Bot Developers 🇱🇰 corporation ©")
+idle()
