@@ -15,7 +15,7 @@
 
 
 ## How To Deploy Bot (Watch On YouTube)🌷
-[![🍀 Logo Generate Tools 🍀](https://telegra.ph/file/04f4e08d3d96e237b6bad.jpg)]()
+[![🍀 Logo Generate Tools 🍀](https://telegra.ph/file/04f4e08d3d96e237b6bad.jpg)](https://youtu.be/SEzZTL2eQ6k)
 
 
 
