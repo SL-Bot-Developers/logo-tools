@@ -21,9 +21,7 @@
 
 # Deploy Heroku 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SL-Bot-Developers/logo-tools.git)
-
-
+[![Deploy](https://telegra.ph/file/bcf6fbca3700a360645d7.jpg)](https://heroku.com/deploy?template=https://github.com/SL-Bot-Developers/logo-tools.git)
 
 # 📚 Description 📚
  
