@@ -15,7 +15,7 @@
 
 
 ## How To Deploy Bot (Watch On YouTube)🌷
-[![🍀 Logo Generate Tools 🍀](https://telegra.ph/file/04f4e08d3d96e237b6bad.jpg)](https://youtu.be/SEzZTL2eQ6k)
+[![ YouTube ](https://telegra.ph/file/04f4e08d3d96e237b6bad.jpg)](https://youtu.be/SEzZTL2eQ6k)
 
 
 
@@ -33,33 +33,26 @@
 # 🌸 Demo Bot
 
 
-[![🍀 Logo Generate Tools 🍀](https://telegra.ph/file/f593b501ef80a573d6cdf.jpg)](https://t.me/The_logo_generate_bot)
-
-
-# 🌺 Credits and Other
-
-- [🚀 SL Bot Developers 🇱🇰](https://github.com/SL-Bot-Developers) For This Project ✌️
-- [🍀 zoneunlimited 🍀](https://t.me/zoneunlimited) For Telegram Channel 🚀
-
+[![🍀 Logo Generate Bot 🍀](https://telegra.ph/file/f593b501ef80a573d6cdf.jpg)](https://t.me/The_logo_generate_bot)
 
 
 # 🔥 Developers 🔥
 
-- [🔥 Chamod deshan](https://t.me/chamod_deshan)<br>
-- [🔥 Bimsara malinga](https://t.me/bimsaramalinga) <br>
+[![Chamod Deshan ](https://telegra.ph/file/51d4f585cc318baed6093.jpg)](https://t.me/chamod_deshan)
+[![Bimsara malinga ](https://telegra.ph/file/66d4d94323712adcbd619.jpg)](https://t.me/bimsaramalinga)
 
 
 
 ## 🌷 Telegram Group/Channel
 
-- [🌷 SL Bot Developers 🇱🇰](https://t.me/SL_BotDevelopers) Corporation ©️
-- [🌷 zoneunlimited](https://t.me/zoneunlimited) 
+[![ SL Bot Developers ](https://telegra.ph/file/8d2ce03f6e28d9df777bb.jpg)](https://t.me/SL_BotDevelopers)
+[![zoneunlimited ](https://telegra.ph/file/a08c7185f0f836d8a6f0f.jpg)](https://t.me/zoneunlimited) 
 
 
 
 # 🙋‍♂ Credits 
 
-- [🔥 Single Developers </> ](https://t.me/SingleDevelopers)
+[![ Single Developers ](https://telegra.ph/file/2780f811d0f1231fc8801.jpg)](https://t.me/SingleDevelopers)
 
 ##
 
